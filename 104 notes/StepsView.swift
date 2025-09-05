@@ -59,6 +59,14 @@ struct StepsView: View {
                  
                     }
                         
+                    }
+                VStack {
+                    Text("1300 cal")
+                        .font(.system(size: 16, weight: .bold))
+                    
+                    Text("Cal Burned")
+                        .font(.system(size: 12, weight: .bold))
+                        
                 }
                 
             }// End of VStack
